@@ -1,0 +1,65 @@
+header{
+    background: url("../assets/cover.png");
+    background-position: center;
+    height: 40vh;
+}
+
+.carousel{
+    position: relative;
+    bottom: 75px;
+}
+
+.carousel:nth-of-type(2) .carousel-item{
+    min-height: 500px;
+}
+
+.parallax-container{
+    height: 200px;
+    margin: 20px 0;
+}
+
+h4{
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+.card-content{
+    padding: 0 5px !important;
+}
+
+.semi-transparent{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0, 0, 0, 1));
+}
+
+i{
+    padding-left: 5px;
+}
+
+.pfp{
+    border-radius: 100%;
+    border: 2px solid black;
+    height: 80px;
+    margin-right: 15px;
+}
+
+#contact, #aboutme{
+    padding: 25px 5px;
+}
+
+#contact-container{
+    margin-top:20px;
+}
+
+.btn-floating{
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.sticky{
+    position: sticky;
+    bottom: 10px;
+    right: 10px;
+}
